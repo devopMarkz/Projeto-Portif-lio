@@ -1,0 +1,29 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.cabecalho__titulo{
+    font-size: 4.2rem;
+}
+
+.cabecalho__titulo--destaque{
+    color: var(--cor-destaque);
+}
+
+.cabecalho__menu__lista{
+    display: flex;
+    gap: 40px;
+}
+
+.cabecalho__menu__lista__item__link{
+    color: var(--cor-fonte-principal);
+    cursor: pointer;
+    padding: 1rem;
+    font-weight: 550;
+}
+
+.cabecalho__menu__lista__item__link:hover{
+    color: var(--cor-destaque);
+}
