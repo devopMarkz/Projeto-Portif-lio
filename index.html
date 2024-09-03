@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/pages/index.css">
     <link rel="stylesheet" href="./src/css/global.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,7 +12,7 @@
 </head>
 <body>
     <header class="cabecalho">
-        <h2 class="cabecalho__titulo">Marcos<span class="cabecalho__titulo--destaque">André</span></h2>
+        <h2 class="cabecalho__titulo">Marcos<span class="destaque">André</span></h2>
 
         <nav class="cabecalho__menu">
             <ul class="cabecalho__menu__lista">
@@ -29,13 +30,42 @@
     </header>
 
     <section class="banner">
-        <div class="banner__imagem">
-            <img src="./assets/images/perfil.jpg" alt="">
+        <div class="banner__container-img">
+            <img src="./assets/images/perfil.jpg" alt="" class="banner__container-img__imagem">
         </div>
 
         <div class="banner__descricao">
-            <h1 class="banner__descricao__titulo"></h1>
-            <p class="banner__descricao__localizacao"></p>
+            <h1 class="banner__descricao__titulo">Desenvolvedor Fullstack - <span class="destaque">React + TS & NodeJS</span></h1>
+            <p class="banner__descricao__localizacao">Localizado em São Luís 🏝️</p>
+        </div>
+    </section>
+
+    <section class="experiencia">
+        <div class="experiencia__container">
+            <h2 class="experiencia__container__titulo">Experiência</h2>
+        </div>
+
+        <div class="experiencia__container">
+            <p class="experiencia__container__descricao">
+                Desenvolvo pequenos projetos como Bikcraft utilizando apenas HTML, CSS e JavaScript. Para aplicativos web como a rede social SnackVideo eu trabalhei no UX e UI Design do projeto.
+            </p>
+            <ul class="experiencia__container__lista">
+                <li class="experiencia__container__lista__item">
+                    <div class="titulo-descricao">
+                        <h3>Bikcraft</h3>
+                        <p>Desenvolvo pequenos projetos como Bikcraft utilizando apenas HTML, CSS e JavaScript. Para aplicativos web como a rede social SnackVideo. </p>
+                    </div>
+
+                    <div class="competencias">
+                        <h3 class="competencias__titulo">Desenvolvedor Junior</h3>
+                        <ul class="competencias__lista">
+                            <li class="competencias__lista__item">HTML</li>
+                            <li class="competencias__lista__item">CSS</li>
+                            <li class="competencias__lista__item">JavaScript</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
         </div>
     </section>
 </body>

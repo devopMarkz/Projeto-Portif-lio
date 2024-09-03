@@ -1,0 +1,25 @@
+@import './lista-projetos.css';
+@import './experiencia.css';
+
+/* SEÇÃO DO BANNER */
+
+.banner{
+    align-items: center;
+    column-gap: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.banner__container-img__imagem{
+    width: 80%;
+}
+
+.banner__descricao__titulo{
+    font-size: 4.8rem;
+    text-align: start;
+}
+
+.banner__descricao__localizacao{
+    color: var(--cor-fonte-secundaria);
+    font-size: 1.5rem;
+}

@@ -1,19 +1,17 @@
 .cabecalho{
     display: flex;
     justify-content: space-between;
-    padding: 50px 0;
+    align-items: center;
+    padding: 50px 0 70px 0;
 }
 
 .cabecalho__titulo{
     font-size: 4.2rem;
 }
 
-.cabecalho__titulo--destaque{
-    color: var(--cor-destaque);
-}
-
 .cabecalho__menu__lista{
     display: flex;
+    flex-wrap: wrap;
     gap: 40px;
 }
 

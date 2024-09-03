@@ -1,4 +1,5 @@
 @import './cabecalho.css';
+@import './destaque.css';
 
 *{
     padding: 0;
@@ -19,6 +20,7 @@ ul{
     --cor-fonte-principal: #000000;
     --cor-fonte-secundaria: #737373;
     --cor-destaque: #FF9534;
+    --cor-experiencia: #DCDCDC;
     font-size: 62.5%;
 }
 

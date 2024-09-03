@@ -1,0 +1,13 @@
+.experiencia{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+.experiencia__container__titulo{
+    color: var(--cor-experiencia);
+    font-size: 10rem;
+    padding: 80px;
+    text-align: center;
+    word-break: break-all;
+}
