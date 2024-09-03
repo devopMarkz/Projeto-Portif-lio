@@ -17,10 +17,14 @@ ul{
 
 :root{
     --background-site: #FAFAFA;
+    --background-habilidades: #FFFFFF;
     --cor-fonte-principal: #000000;
     --cor-fonte-secundaria: #737373;
+    --cor-fonte-terciaria: #434343;
     --cor-destaque: #FF9534;
+    --cor-taxas: #FFB672;
     --cor-experiencia: #DCDCDC;
+    --cor-competencias: #F6F4F4;
     font-size: 62.5%;
 }
 

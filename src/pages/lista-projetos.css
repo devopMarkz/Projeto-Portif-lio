@@ -1,0 +1,74 @@
+.experiencia__container__lista {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.experiencia__container__lista__item{
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 1fr 180px;
+}
+
+.titulo-descricao{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.titulo-descricao h3{
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.titulo-descricao h3::before{
+    background-color: var(--cor-taxas);
+    content: " ";
+    height: 20px;
+    width: 4px;
+    position: absolute;
+    left: -23px;
+}
+
+.titulo-descricao h3::after{
+    color: var(--cor-fonte-secundaria);
+    content: "2045";
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin-left: 25px;
+}
+
+.titulo-descricao p{
+    color: var(--cor-fonte-terciaria);
+    font-size: 1.4rem;
+}
+
+/* COMPETÊNCIAS */
+
+.competencias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.competencias__titulo{
+    font-size: 1.6rem;
+}
+
+.competencias__lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.competencias__lista__item{
+    border-radius: .4rem;
+    color: var(--cor-fonte-principal);
+    padding: .5rem 1rem;
+    background-color: white;
+    font-size: 1.2rem;
+}

@@ -1,13 +1,24 @@
 .experiencia{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
 }
 
 .experiencia__container__titulo{
     color: var(--cor-experiencia);
     font-size: 10rem;
-    padding: 80px;
-    text-align: center;
+    padding: 60px;
     word-break: break-all;
+}
+
+.experiencia-projetos{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.experiencia__container__lista__item{
+    border-radius: .4rem;
+    padding: 10px 20px;
+    background-color: var(--cor-competencias);
 }
