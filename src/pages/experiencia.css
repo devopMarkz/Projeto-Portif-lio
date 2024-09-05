@@ -1,14 +1,16 @@
 .experiencia{
+    align-items: self-start;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 40px;
+    column-gap: 80px;
 }
 
 .experiencia__container__titulo{
     color: var(--cor-experiencia);
     font-size: 10rem;
-    padding: 60px;
-    word-break: break-all;
+    justify-self: start;
+    text-transform: uppercase;
 }
 
 .experiencia-projetos{
